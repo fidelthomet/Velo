@@ -1,0 +1,59 @@
+﻿"ABKUERZUNG";"BEZEICHNUN";"BIS";"FK_ZAEHLER";"RICHTUNG_I";"RICHTUNG_O";"VON";"Easting";"Northing"
+"VZS_BINZ";"Binzmühlestrasse";;"ECO09113500";"Oerlikon";"Glaubtenstrasse";2010-11-30T00:00:00;681856;251991
+"VZS_BUCH";"Bucheggplatz";;"ECO09113505";"Hofwiesenstrasse";"Höngg";2014-06-25T00:00:00;682646;250364
+"VZS_KLOS";"Kloster-Fahr-Weg";;"Y0412032046";"Stadtgrenze";"Innenstadt";2010-06-25T00:00:00;679027;250674
+"VZS_HOFW";"Hofwiesenstrasse";;"ECO09113507";"Bucheggplatz";"";2010-09-23T00:00:00;682695;250606
+"VZS_LIMB";"Limmatquai, Ri. Bellevue";;"Y2G14045586";"Bellevue";"---";2014-06-25T00:00:00;683446;247063
+"VZS_LUXG";"Lux-Guyer-Weg";;"ECO09022739";"Innenstadt";"Wipkingen";2009-12-01T00:00:00;682932;248821
+"VZS_MILI";"Militärbrücke";;"Y2G13124879";"Bahnhofstrasse";"Langstrasse";2014-03-12T00:00:00;682730;247708
+"VZS_MYTH";"Mythenquai";;"ECO09113499";"Innenstadt";"Wollishofen";2010-07-14T00:00:00;682872;245891
+"VZS_MUEH";"Mühlebachstrasse";;"Y2G12102806";"Bellevue";"Riesbach";2012-10-23T00:00:00;684005;246566
+"VZS_ZOLL";"Zollstrasse";;"Y2G13124876";"Sihlquai";"Langstrasse";2014-03-11T00:00:00;682945;248225
+"VZS_TOED";"Tödistrasse";;"Y2G13124877";"Seeufer";"Hauptbahnhof";2014-03-11T00:00:00;682880;246549
+"VZS_TALS";"Talstrasse";;"Y2G13124878";"Hauptbahnhof";"Seeufer";2014-03-12T00:00:00;682754;247323
+"VZS_SCHU";"Schulstrasse";;"ECO10053914";"Irchel";"Bahnhof Oerlikon";2012-08-08T00:00:00;683404;251617
+"VZS_SCHE";"Scheuchzerstrasse";;"ECO09113501";"Innenstadt";"Irchel";2010-09-23T00:00:00;683572;248545
+"FZS_MYTH";"Mythenquai Unterführung";;"U15G3104443";"Seeufer";"Bhf. Wollishofen";2015-10-07T00:00:00;682812;245490
+"FZS_ALTW";"Altstetterstrasse West";;"U15G3104445";"Bhf. Altstetten";"Lindenplatz";2015-10-16T00:00:00;679173;249438
+"FZS_INGA";"In Gassen";;"YPH15108550";"Paradeplatz";"Rathaus";2015-10-21T00:00:00;683266;247229
+"VZS_SAUM";"Saumackerstrasse";;"Y2G13124875";"Uetliberg";"Bahnhof Altstetten";2014-03-11T00:00:00;679336;249346
+"FZS_ALTO";"Altstetterstrasse Ost";20130417;"U15G2092649";"Bhf. Altstetten";"Lindenplatz";2013-03-07T00:00:00;679189;249436
+"VZS_LANW";"Langstrasse (Unterführung West)";;"Y2G12102807";"Helvetiaplatz";"Limmatplatz";2013-06-27T00:00:00;682277;248325
+"FZS_KATZ";"Katzenbach";20151001;"U15G3104442";"Affoltern";"Seebach";2015-03-31T00:00:00;681401;253280
+"FZS_QUAN";"Quaibrücke Nord (Limmatseite)";20151124;"U15G3063868";"Bellevue";"Bürkliplatz";2013-08-23T00:00:00;683401.023449998;246818.497450002
+"FZS_LETL";"Lettenviadukt (Limmatstr.)";;"U15G3063869";"Limmat";"Gleisanlagen";2016-03-30T00:00:00;682170;249124
+"FZS_HARD";"Hardeggsteg";20140320;"U15G2092649";"Kloster-Fahr-Weg";"Hardturmstrasse";2013-11-28T00:00:00;680438;249930
+"FZS_ALTO";"Altstetterstrasse Ost";20150331;"U15G3063866";"Bhf. Altstetten";"Lindenplatz";2013-11-28T00:00:00;679189;249436
+"FZS_ALTW";"Altstetterstrasse West";20150331;"U15G3104445";"Bhf. Altstetten";"Lindenplatz";2013-11-28T00:00:00;679173;249438
+"FZS_CASS";"Cassiopeiasteg";20151007;"U15G3104443";"Bellevue";"Stadtgrenze";2015-04-30T00:00:00;683123;244020
+"FZS_CHOR";"Chorherrenweg";20151001;"U15G4025180";"Limmat";"Meierhofplatz";2015-03-31T00:00:00;680001;250596
+"FZS_HARD";"Hardeggsteg";20150331;"U15G4025180";"Kloster-Fahr-Weg";"Hardturmstrasse";2014-03-20T00:00:00;680438;249930
+"FZS_INGA";"In Gassen";20151020;"YPH14106664";"Paradeplatz";"Rathaus";2014-11-07T00:00:00;683266;247229
+"FZS_LETD";"Letten / Dynamo";20150331;"U15G3063869";"Limmatplatz";"Hauptbahnhof";2014-07-10T00:00:00;682977;248744
+"FZS_LETD";"Letten / Dynamo";20160329;"U15G3063869";"Limmatplatz";"Hauptbahnhof";2015-10-01T00:00:00;682977;248744
+"FZS_OHMO";"Ohmstrasse Ost";20151001;"U15G3063866";"Bhf. Oerlikon";"Sternen Oerlikon";2015-03-31T00:00:00;683559;251682
+"FZS_OHMW";"Ohmstrasse West";20150925;"U15G3104445";"Bhf. Oerlikon";"Sternen Oerlikon";2015-03-31T00:00:00;683572;251687
+"FZS_WEIN";"Weinbergfussweg";;"U15G3063872";"Polyterrasse";"Hauptbahnhof";2013-07-11T00:00:00;683523;248171
+"FZS_CHOR";"Chorherrenweg";;"U15G4025180";"Limmat";"Meierhofplatz";2016-04-01T00:00:00;680001;250596
+"FZS_INGA";"In Gassen";20141107;"U15G3063871";"Paradeplatz";"Rathaus";2013-07-11T00:00:00;683266;247229
+"FZS_LANO";"Langführung (Unterführung Ost)";;"U15G3104444";"Gleisanlagen";"Limmat";2015-03-10T00:00:00;682359;248448
+"FZS_LANW";"Langstrasse (Unterführung West)";;"U15G3063870";"Limmatplatz";"Helvetiaplatz";2013-07-11T00:00:00;682333;248461
+"FZS_LIMM";"Limmatquai";;"U15G3063873";"Rathaus";"Seeufer";2013-07-11T00:00:00;683436;247199
+"FZS_MILI";"Militärbrücke";;"U15G3063864";"Löwenplatz";"Langstrasse";2013-07-11T00:00:00;682688;247735
+"FZS_ZEHN";"Zehntenhausplatz Unterführung";20150331;"U15G3104442";"Louis Conne Weg";"In Böden";2013-11-28T00:00:00;680576;252581
+"FZS_ZEHN";"Zehntenhausplatz Unterführung";20160331;"U15G3104442";"Louis Conne Weg";"In Böden";2015-10-01T00:00:00;680576;252581
+"FZS_QUAS";"Quaibrücke Süd (Seeseite)";20160215;"U15G3063867";"Bellevue";"Bürkliplatz";2013-08-23T00:00:00;683406.583349999;246794.8411
+"VZS_ANDR";"Andreasstrasse";;"ECO09113502";"Oerlikon";"Wallisellen";2010-12-16T00:00:00;684577;251967
+"VZS_SIHL";"Sihlpromenade";;"ECO09113503";"Innenstadt";"Saalsporthalle";2010-07-14T00:00:00;682374;247055
+"VZS_BERT";"Bertastrasse";;"ECO09113506";"Wiedikon";"Aussersihl";2010-07-26T00:00:00;681384;247736
+"FZS_KLOE";"Kloster-Fahr-Weg (Europabrücke)";;"ECO10013684";"Werdinsel";"Innenstadt";2010-06-26T00:00:00;680048;250304
+"FZS_LETL";"Lettenviadukt (Limmatstr.)";20151001;"U15G3063869";"Limmat";"Gleisanlagen";2015-03-31T00:00:00;682170;249124
+"FZS_MYTH";"Mythenquai Unterführung";20150430;"U15G3104443";"Seeufer";"Bhf. Wollishofen";2013-11-28T00:00:00;682812;245490
+"FZS_ARBO";"Arboretum";20150908;"U15G3104446";"Stadtgrenze";"Innenstadt";2015-03-10T00:00:00;682972;246329
+"VZS_FISC";"Fischerweg";;"Y0410090357";"Innenstadt";"Stadtgrenze";2010-07-09T00:00:00;678955;250443
+"VZS_LIMC";"Limmatquai, Ri. Central";;"Y2G14045587";"Central";"---";2014-06-25T00:00:00;683456;247065
+"FZS_HARD";"Hardeggsteg";20160331;"U15G4025180";"Kloster-Fahr-Weg";"Hardturmstrasse";2015-10-01T00:00:00;680438;249930
+"FZS_ALTO";"Altstetterstrasse Ost";;"U15G3063866";"Bhf. Altstetten";"Lindenplatz";2015-10-01T00:00:00;679189;249436
+"FZS_OHMW";"Ohmstrasse West";;"U15G3063865";"Bhf. Oerlikon";"Sternen Oerlikon";1899-12-30T00:00:00;683559;251682
+"FZS_OHMO";"Ohmstrasse Ost";;"U15G3104447";"Bhf. Oerlikon";"Sternen Oerlikon";2016-04-01T00:00:00;683572;251687
+"FZS_KATZ";"Katzenbach";;"U15G3104442";"Affoltern";"Seebach";2016-04-01T00:00:00;681401;253280
