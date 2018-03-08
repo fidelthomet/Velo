@@ -1,6 +1,6 @@
 # Datenanalyse mit R am Beispiel der Zürcher Velo-Verkehrszählungen
 
-Dieses Projekt beinhaltet den Beispielcode zum Blogpost [Sachen machen mit Open Data und Fidel – Episode 4: *Schön, dass das maschinenlesbar ist, aber was soll ich jetzt damit anfangen?*]()
+Dieses Projekt beinhaltet den Beispielcode zum Blogpost [Sachen machen mit Open Data und Fidel – Episode 4: *Schön, dass das maschinenlesbar ist, aber was soll ich jetzt damit anfangen?*](https://www.stadt-zuerich.ch/portal/de/index/ogd/blog/2016/06/sachen_machen_mitop.html)
 
 # Das Wichtigste
 
