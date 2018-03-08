@@ -1,3 +1,20 @@
+if(!require(lubridate)) {
+  install.packages("lubridate")
+  require(lubridate)
+}
+if(!require(ggplot2)) {
+  install.packages("ggplot2")
+  require(ggplot2)
+}
+if(!require(scales)) {
+  install.packages("scales")
+  require(scales)
+}
+if(!require(grid)) {
+  install.packages("grid")
+  require(grid)
+}
+
 # ———
 # Daten importieren
 # ———
@@ -91,11 +108,8 @@ temperatur$Temperatur <- as.numeric(as.character(temperatur$Temperatur))
 # ———
 
 # Messwerte tageweise aggregieren
-# Dafür installieren wir uns das Package lubridate:
-if(!require(lubridate)) {
-  install.packages("lubridate")
-  require(lubridate)
-}
+# (Dafür installieren wir uns das Package lubridate)
+
 # mit Floordate können wir das Datum mit Uhrzeit auf das Datum abrunden
 velos$Tag <- floor_date(velos$Datum, unit = "day")
 # Jetzt summieren wir die Gesamtwerte aller Messungen des gleichen Tags.
@@ -103,10 +117,6 @@ velos$Tag <- floor_date(velos$Datum, unit = "day")
 Tagestotal <- aggregate(Velo ~ Tag, data=velos, sum)
 
 # Aggregierte Werte zeichnen, das geht mit dem Package ggplot2
-if(!require(ggplot2)) {
-  install.packages("ggplot2")
-  require(ggplot2)
-}
 
 # Zum Plotten geben wir den Datensatz (Tagestotal) und die Spalten für die X- und
 # Y-Achse an. Mit geom_line() Zeichnen wir ein Liniendiagramm
@@ -127,10 +137,6 @@ ggplot(Tagesvergleich, aes(Uhrzeit, Velo, color=factor(Wochentag))) +
 
 # Jetzt müssen wir noch die Beschriftung der Legende und der X-Achse anpassen.
 # Für letzteres brauchen wir das package scales
-if(!require(scales)) {
-  install.packages("scales")
-  require(scales)
-}
 
 wochentage <- c("Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag")
 ggplot(Tagesvergleich, aes(Uhrzeit, Velo, color=factor(Wochentag, labels = wochentage))) +
@@ -171,10 +177,7 @@ ggplot(temperatur, aes(Datum, Temperatur)) + geom_line()
 # installieren wir das Package grid, mit dem wie mehrere Graphen nebeneinander
 # zeichnen können
 
-if(!require(grid)) {
-  install.packages("grid")
-  require(grid)
-}
+# Hier nutzen wir den package grid
 
 # Anstatt die Graphen direkt zu zeichnen, werden sie Variablen zugewiesen
 plot_velo <- ggplotGrob(ggplot(Tagestotal,  aes(Tag, Velo)) + geom_line())
@@ -225,6 +228,8 @@ plot_velo <- ggplotGrob(ggplot(Tagestotal, aes(Tag, Velo)) +
   theme(axis.ticks.x = element_blank(),axis.text.x = element_blank(), plot.margin = margin(0,10,-13,5)) + # Theme Anpassen um die X-Achsenbeschriftung beim ersten Graphen zuu entfernen
   scale_y_continuous(expand = c(0, 0), limits = c(0,55000), labels = function (x, ...) format(x, ..., big.mark = " ", scientific = FALSE, trim = TRUE)) + # Leerzeichen für bessere Lesbarkeit einfügen
   scale_x_datetime(date_breaks="1 month")) # Gleiches Grid, wie im zweiten Graphen zeichnen
+
+
 
 plot_temp <- ggplotGrob(ggplot(temperatur, aes(Datum, Temperatur)) +
   geom_line(color="#DDDDDD") +
